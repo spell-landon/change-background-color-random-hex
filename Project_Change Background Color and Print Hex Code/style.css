@@ -1,0 +1,35 @@
+
+#clickMe {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border: 2px solid rgba(0, 0, 0, 0.26);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Padauk', sans-serif;
+    text-transform: uppercase;
+}
+
+
+#clickMe:hover {
+    background-color: rgba(100, 100, 100, 0.432);
+    cursor: pointer;
+}
+
+#clickMe:active {
+    background-color: rgba(100, 100, 100, 0.527);
+    color: rgb(230, 228, 228);
+}
+#main_text {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Padauk', sans-serif;
+    text-transform: none;
+}
